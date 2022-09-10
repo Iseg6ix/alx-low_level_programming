@@ -5,7 +5,6 @@
  * Main: This is the entry point for the program. All codes are run in here
  * Return: Returns 0 if no errors encoutered, else return integer
  */
-
 int main(void)
 /*
  * This program here checks the random value of n and prints out 
