@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Checks the last digit of n and prints out if it's positive, negative or zero
+ * main - Checks the last digit of n
+ * prints out if it's positive, negative or zero
  * Return: 0 if no errors occured
  */
 int main(void)
