@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- Prints the program in lowercase 
+ * main- Prints the program in lowercase
  * followed by a new line
  * Return: 0 when no errors occured,
  * otherwise returns a positive integer
