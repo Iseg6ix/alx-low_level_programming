@@ -10,6 +10,9 @@
  */
 
 int main(void)
+	/*This program here checks the random value of n and prints out 
+	 * the convention if it's positive, negative or neutral
+	 */ 
 {
 	int n;
 
