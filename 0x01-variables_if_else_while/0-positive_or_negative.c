@@ -5,7 +5,7 @@
 /* more headers goes there */
 
 /*
- * main - This is the entry point for the program
+ * Main: This is the entry point for the program. All codes are run in here
  * Return: Returns 0 if no errors encoutered, else return integer
  */
 
