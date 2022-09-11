@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main- This program prints all possible combinations of single digit numbers; i.e 
+ * main- This program prints all possible combinations of
+ * single digit numbers; i.e
  * 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
  * Return: 0 if no errors encoutered. else returns a +ve integer.
  */
