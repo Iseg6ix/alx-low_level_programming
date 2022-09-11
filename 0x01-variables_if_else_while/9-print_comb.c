@@ -7,18 +7,14 @@
 int main(void)
 {
 	int n;
-	char c;
-	char s;
 
-	c = ',';
-	s = ' ';
 	for (n = '0'; n <= '9'; n++)
 	{
 		putchar(n);
 		if (n != '9')
 		{
-			putchar(c);
-			putchar(s);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
