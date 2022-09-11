@@ -6,10 +6,10 @@ int main(void)
 {
 	char c;
 
-	for (c = 'z'; c <= 'a'; c++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
-		printf("%c ", c);
+		putchar(c);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
