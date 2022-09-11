@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - checks the random value of n and prints out if it's 
+ * main - checks the random value of n and prints out if it's
  * positive, negative or zero.
- *
  * Return: Returns 0 if no errors encoutered, else return integer
  */
 int main(void)
