@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main- This program prints numbers of base 10 from 0,
  * only using putchar function and no char variables.
@@ -6,11 +8,10 @@
  */
 int main(void)
 {
-	int i;
+	int d;
 
-	for (i = 0; i < 10; i++)
-		i = i % 10;
-		putchar(i);
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
 	putchar('\n');
 	return (0);
 }
