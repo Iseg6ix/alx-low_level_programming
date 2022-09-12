@@ -9,16 +9,18 @@ int main(void)
 	int a;
 	int b;
 
-	for (a = '0'; a <= '9'; a++)
+	for (a = '0'; a <= '9';)
 	{
-		for (b = '1'; b <= '9'; b++)
-			if (a != '9' && a != b)
+		for (b = '1'; b <= '9';)
+			if (a != b && b > a)
 
 			{
 				putchar(a);
 				putchar(b);
 				putchar(',');
 				putchar(' ');
+				a++;
+				b++;
 			};
 	};
 	putchar('\n');
