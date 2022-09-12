@@ -11,8 +11,13 @@ int main(void)
 
 	for (a = '0'; a <= '9';)
 	{
+<<<<<<< HEAD
 		for (b = '1'; b <= '9';)
 			if (a != b && b > a)
+=======
+		for (b = '1'; b <= '9'; b++)
+			if (a != '9' && a != b && b > a)
+>>>>>>> 45622b5bb3d400b6e70fb6d173c3943440ef7bad
 
 			{
 				putchar(a);
