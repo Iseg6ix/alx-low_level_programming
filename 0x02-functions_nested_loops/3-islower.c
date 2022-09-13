@@ -1,8 +1,9 @@
 #include "main.h"
 #include <ctype.h>
 /**
- * _islower - checks for lower case character.
- *@parameterc: Takes in an integer as it's arguments.
+ * _islower - checks for lower case character
+ * c: Takes in an integer as it's arguments
+ *
  * Return: 1 if is a lowercase value, 0 otherwise.
  */
 int _islower(int c)
