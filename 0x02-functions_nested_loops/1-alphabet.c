@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - uses void print_alphabet to print out the alphabets
+ * print_alphabet - uses void _putchar to print out the alphabets.
  * twice in 2 lines.
  *
  * Return: Void on success.
