@@ -8,8 +8,11 @@
 int print_last_digit(int a)
 {
 	int mod = a % 10;
-	_putchar("%d", mod);
-	return(mod);
-	_putchar('\n');
-	return (0);
+	
+	if (mod < 0)
+	{
+		mod *= -1;
+	}
+	_puchar(mod + '0');
+	return (mod);
 }
