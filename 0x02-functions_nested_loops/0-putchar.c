@@ -15,7 +15,7 @@ int main(void)
 	char r = 114;
 
 	_putchar(und);
-        _putchar(p);
+	_putchar(p);
 	_putchar(u);
 	_putchar(t);
 	_putchar(c);
