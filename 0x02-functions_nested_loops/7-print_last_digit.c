@@ -13,6 +13,6 @@ int print_last_digit(int a)
 	{
 		mod *= -1;
 	}
-	_puchar(mod + '0');
+	_putchar(mod + '0');
 	return (mod);
 }
