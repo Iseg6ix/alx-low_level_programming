@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * _islower - checks for lower case character.
- *@parameterc - Takes in an integer as it's arguments.
+ *@parameterc: Takes in an integer as it's arguments.
  * Return: 1 if is a lowercase value, 0 otherwise.
  */
 int _islower(int c)
