@@ -7,4 +7,6 @@
  * Return: 0 on success.
  */
 int _abs(int a)
+{
 	return (abs(a));
+}
