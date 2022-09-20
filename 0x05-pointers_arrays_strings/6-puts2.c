@@ -4,7 +4,7 @@
  * starting with the first character.
  * @str: Pointer argument of the function.
  */
-vovid puts2(char *str)
+void puts2(char *str)
 {
 	int i = strlen(str);
 
