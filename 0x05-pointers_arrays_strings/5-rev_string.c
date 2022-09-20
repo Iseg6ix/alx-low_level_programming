@@ -13,6 +13,6 @@ void rev_String(char *s)
 
 	while (i--)
 	{
-		return (*(s + i));
+		_putchar(*(s + i));
 	}
 }
