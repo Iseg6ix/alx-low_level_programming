@@ -6,9 +6,16 @@
  *
  * Return: Nothing.
  */
-void print_rev(char *s)
+void print_rev(char *str)
 {
-	char a = strrev(s);
-
-	_putchar(a);
+	int i, len, temp;
+	
+	len = strlen(str);
+	for (i = 0; i < len/2; i++)
+	{
+		temp = str[i];
+		str[i] = str[len - i - 1 ];
+		str[len -i -1] = temp;
+		_putchar(temp);
+	}
 }
