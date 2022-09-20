@@ -7,5 +7,6 @@
  */
 void _puts(char *str)
 {
-	puts("%x\n", *str);
+	puts("%x", *str);
+	puts("\n");
 }
