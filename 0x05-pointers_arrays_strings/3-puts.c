@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * _puts - This function prints a string, followed by a new line, to stdout.
  * @str - Pointer argument of the function.
@@ -8,7 +9,5 @@
 void _puts(char *str)
 {
 	puts(str);
-	getch();
-	puts("\n");
-	getch();
+	_putchar('\n');
 }
