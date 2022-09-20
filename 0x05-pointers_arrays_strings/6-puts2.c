@@ -1,17 +1,20 @@
-#include <string.h>
-#include <stdio.h>
 #include "main.h"
+
 /**
- * puts2 - This function every other character of a string,
- * starting with the first character.
- * @str: Pointer argument of the function.
- */
+* puts2 - print alternating chars of string
+* @str: string, is the parameter pased
+* Return: Void
+*/
 void puts2(char *str)
 {
-	int i = strlen(str);
+	int i;
 
-	while (i+=2)
+	i = 0;
+	while (str[i] != '\0')
 	{
-		puts(str);
+		if (i % 2 == 0)
+		_putchar(str[i]);
+		i++;
 	}
+	_putchar('\n');
 }
