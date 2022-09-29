@@ -2,7 +2,7 @@
 /**
  * factorial - Returns the factorial of a given integer.
  * @n: Integer argument of the function.
- * 
+ *
  * Return: 0 On success.
  */
 int factorial(int n)
