@@ -6,7 +6,7 @@
  *
  * Return: 0 On success.
  */
-int main(int argc, char **argv)
+int main(int argc, char **argv[])
 {
 	_putchar("%s", argv[0]);
 	_putchar("\n");
