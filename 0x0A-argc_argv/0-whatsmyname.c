@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - This function returns the name of the compiled file.
