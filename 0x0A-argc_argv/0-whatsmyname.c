@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * main - This function returns the name of the compiled file.
- * @argc: Count of the number of arguments entering the function.
- * @argv: Array of the arguments entering the function.
+ * main - prints the name of the program
+ * @argc: number of arguments
+ * @argv: array of arguments
  *
- * Return: 0 On success.
+ * Return: Always 0 (Success)
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
+
 	return (0);
 }
