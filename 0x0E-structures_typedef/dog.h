@@ -1,5 +1,3 @@
-#define DOG_H
-
 /**
  * struct dog - Struct dog
  * @name: name
@@ -7,7 +5,6 @@
  * @owner: owner
  * Description: This struct is for dog
  */
-
 struct dog
 {
 	char *name;
