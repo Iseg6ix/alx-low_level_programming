@@ -1,13 +1,16 @@
-#include "main.h"
+#define DOG_H
+
 /**
- * struct dog - structure for dogs
- * @name: dog's name
- * @age: dog's age
- * @owner: pet's owner
+ * struct dog - Struct dog
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * Description: This struct is for dog
  */
+
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
+};
