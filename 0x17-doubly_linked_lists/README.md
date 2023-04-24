@@ -1,1 +1,1 @@
-This directory contains foundation files on doubly linked lists in c
+This file/directory was created to tackle problems in doubly linked lists
